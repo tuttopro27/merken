@@ -1,7 +1,4 @@
-@extends('layouts.main', [
-    'class' => 'login-page',
-    'backgroundImagePath' => 'img/bg/fabio-mangione.jpg'
-])
+@extends('adminlte::auth.login')
 
 @section('content')
     <div class="content">
